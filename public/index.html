@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snishield</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="innerCard">
+                <img src="./images/logo.png" alt="logo" class="logo">
+                <div class="info">
+                    <div>
+                        <!-- <div class="words word-1">
+                            <span>W</span>
+                            <span>E</span>
+                            <span>B</span>
+                            <span>S</span>
+                            <span>I</span>
+                            <span>T</span>
+                            <span>E</span>
+                        </div> -->
+                        <div class="words word-2">
+                            <span>U</span>
+                            <span>N</span>
+                            <span>D</span>
+                            <span>E</span>
+                            <span>R</span>
+                        </div>
+                        <div class="words word-3">
+                            <span>C</span>
+                            <span>O</span>
+                            <span>N</span>
+                            <span>S</span>
+                            <span>T</span>
+                            <span>R</span>
+                            <span>U</span>
+                            <span>C</span>
+                            <span>T</span>
+                            <span>I</span>
+                            <span>O</span>
+                            <span>N</span>
+                        </div>
+                    </div>
+                    <div class="title">
+                        <span class="highlight">
+                            <span class="text">Team Snishield</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottomCard">
+            <div>
+                <img src="./images/cloud.png" class="cloud" />
+            </div>
+            <div>
+                <section>
+                    <ul class="code">
+                        <li tabindex="0" class="digit">
+                            <span><a href="#"><i class="fa-brands fa-instagram instagram"></i></a></span>
+                        </li>
+                        <li tabindex="0" class="digit">
+                            <span><a href="#"><i class="fa-brands fa-whatsapp whatsapp"></i></a></span>
+                        </li>
+                        <li tabindex="0" class="digit">
+                            <span><a href="#"><i class="fa-brands fa-square-x-twitter"></i></a></span>
+                        </li>
+                        <li tabindex="0" class="digit">
+                            <span><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyAL9nHBhnZvPzpWkLauNQhJGr87dxPbF0c",
+            authDomain: "snishield-dev.firebaseapp.com",
+            projectId: "snishield-dev",
+            storageBucket: "snishield-dev.appspot.com",
+            messagingSenderId: "225050482478",
+            appId: "1:225050482478:web:70feed15986fb1b8000cbf",
+            measurementId: "G-KPRNFP530F"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+
+</body>
+
+</html>
